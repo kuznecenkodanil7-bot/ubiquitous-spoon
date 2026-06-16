@@ -1,0 +1,65 @@
+{
+  "mod.raidmine.name": "RaidMine Admin Tools",
+  "mod.raidmine.description": "Инструменты для персонала проекта RaidMine",
+
+  "raidmine.auth.title": "Авторизация",
+  "raidmine.auth.login": "Логин (Никнейм)",
+  "raidmine.auth.password": "Пароль",
+  "raidmine.auth.login_btn": "Войти",
+  "raidmine.auth.failed": "Неверный логин или пароль",
+  "raidmine.auth.success": "Успешная авторизация!",
+  "raidmine.auth.logout": "Выйти",
+  "raidmine.auth.logged_as": "Вы авторизованы как: %s",
+  "raidmine.auth.rank": "Ранг: %s",
+
+  "raidmine.punish.title": "Выдача наказания",
+  "raidmine.punish.player": "Игрок: %s",
+  "raidmine.punish.warn": "Выдать варн (предупреждение)",
+  "raidmine.punish.mute": "Замутить",
+  "raidmine.punish.ban": "Забанить",
+  "raidmine.punish.kick": "Кикнуть",
+  "raidmine.punish.reason": "Причина:",
+  "raidmine.punish.duration": "Длительность:",
+  "raidmine.punish.send": "Применить наказание",
+  "raidmine.punish.cancel": "Отмена",
+  "raidmine.punish.history": "История наказаний",
+
+  "raidmine.playerinfo.title": "Информация об игроке",
+  "raidmine.playerinfo.name": "Имя: %s",
+  "raidmine.playerinfo.messages": "Последние сообщения:",
+  "raidmine.playerinfo.no_messages": "Нет сохраненных сообщений",
+  "raidmine.playerinfo.punish_btn": "Выдать наказание",
+  "raidmine.playerinfo.copy_name": "Скопировать никнейм",
+
+  "raidmine.settings.title": "Настройки",
+  "raidmine.settings.chat_filter": "Фильтр чата",
+  "raidmine.settings.notifications": "Уведомления",
+  "raidmine.settings.sound": "Звуковые уведомления",
+  "raidmine.settings.auto_update": "Автообновление паролей",
+  "raidmine.settings.save": "Сохранить",
+  "raidmine.settings.language": "Язык",
+
+  "raidmine.overlay.violation": "Нарушение! %s",
+  "raidmine.overlay.no_violations": "Нарушений не обнаружено",
+
+  "raidmine.filter.swear": "Обнаружено нецензурное выражение!",
+  "raidmine.filter.caps": "Обнаружен капс!",
+  "raidmine.filter.spam": "Обнаружен флуд!",
+  "raidmine.filter.advertising": "Обнаружена реклама!",
+
+  "raidmine.keybind.open_menu": "Открыть меню наказаний",
+  "raidmine.keybind.category": "RaidMine Admin Tools",
+
+  "raidmine.rank.helper": "Хелпер",
+  "raidmine.rank.sthelper": "Старший Хелпер",
+  "raidmine.rank.moder": "Модератор",
+  "raidmine.rank.stmoder": "Старший Модератор",
+  "raidmine.rank.hmoder": "Главный Модератор",
+  "raidmine.rank.admin": "Администратор",
+
+  "raidmine.notification.violation_detected": "Обнаружено нарушение! Нажмите ALT+F6",
+  "raidmine.notification.new_messages": "Новые сообщения от %s",
+
+  "key.raidmine-admin-tools.open": "Открыть меню наказаний",
+  "category.raidmine-admin-tools": "RaidMine Admin Tools"
+}

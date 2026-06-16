@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "raidmine-admin-tools",
+  "version": "${version}",
+  "name": "RaidMine Admin Tools",
+  "description": "Admin tools for RaidMine project staff",
+  "authors": ["RaidMine Development"],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/raidmine-admin-tools/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.raidmine.admintools.RaidMineAdminTools"
+    ]
+  },
+  "mixins": [
+    "raidmine-admin-tools.mixins.json"
+  ],
+  "accessWidener": "raidmine-admin-tools.accesswidener",
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
